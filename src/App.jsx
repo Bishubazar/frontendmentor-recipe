@@ -21,7 +21,7 @@ function Divider() {
 
 function App() {
     return (
-        <main className="flex flex-col max-w-screen-md gap-8 p-10 mx-auto my-32 bg-white rounded-3xl">
+        <main className="flex flex-col max-w-screen-md gap-12 p-10 mx-auto my-32 bg-white rounded-3xl">
             <img
                 src="/images/image-omelette.jpeg"
                 alt=""
