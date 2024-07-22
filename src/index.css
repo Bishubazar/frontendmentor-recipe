@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+/* Usage: 400 */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* Usage: 400, 600, 700 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        font-family: "Outfit";
+        @apply text-base text-stone-600;
+    }
+    .f-young {
+        font-family: "Young Serif";
+        font-weight: 400;
+    }
+    .title {
+        @apply text-[28px] text-brown;
+        font-family: "Young Serif";
+    }
+}
